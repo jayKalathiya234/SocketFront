@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { QRCodeSVG } from "qrcode.react";
 import OtpModal from "../component/OtpModal";
 import PhoneInput from 'react-phone-input-2';
-import 'react-phone-input-2/lib/style.css';
+// import 'react-phone-input-2/lib/style.css';
 
 const LoginNew = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
